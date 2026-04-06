@@ -1,3 +1,7 @@
+# ---
+
+> OpenClaw AI Agent Skill
+
 ---
 name: pipeline-orchestrator
 description: Staged execution pipeline with plan→prd→exec→verify→fix loop, dual reasoning (think/act), parallel sub-agent spawning, and resumable state. Inspired by OMC and Chat2Graph. Use for any complex multi-step task that benefits from structured decomposition, verification, and automatic retry.
@@ -591,3 +595,13 @@ t6: Tests (medium, group 4, depends: t5)
 - **Dual reasoning pattern:** `references/dual-reasoning.md`
 - **State file schemas:** `references/state-schema.md`
 - **Status script:** `scripts/pipeline-status.sh`
+
+## Installation
+
+```bash
+cp -r pipeline-orchestrator/ ~/.openclaw/workspace/skills/pipeline-orchestrator/
+```
+
+## License
+
+MIT © [Sentra Technology](https://github.com/Icattj)
